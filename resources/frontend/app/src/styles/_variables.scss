@@ -1,0 +1,73 @@
+/*
+ * COLORS
+ */
+$bg-color: #1b1b1b;
+
+$main-color: #ddd;
+
+/*
+ * FONTS
+ */
+$title-font-size: 30px;
+$title-font-size-sm: 24px;
+$main-font: 'Josefin Sans', sans-serif;
+
+/*
+ * PADDINGS
+ */
+$base-padding: 20px;
+$huge-padding: $base-padding * 3;
+
+/*
+ * MISC
+ */
+$home-title: 110px;
+$home-title-md: 70px;
+$home-quote: 18px;
+$main-nav-font-size: 32px;
+$header-height: 90px;
+$max-screen-width: 1920px;
+
+/*
+ * BORDERS
+ */
+$border-size: 2px;
+
+/*
+ * Z-INDEX
+ */
+$z-main-nav: 100;
+$z-bg-image: -1;
+
+/*
+ * Z-INDEX
+ */
+$base-anim-duration: .3s;
+$slow-anim-duration: .5s;
+
+ /*
+* MEDIA QUERIES BREAKPOINTS
+*/
+$breakpoints: (
+  "min-sm": (
+    min-width: 767px
+  ),
+  "min-md": (
+    min-width: 992px
+  ),
+  "min-lg": (
+    min-width: 1200px
+  ),
+  "max-xs": (
+    max-width: 340px
+  ),
+  "max-sm": (
+    max-width: 766px
+  ),
+  "max-md": (
+    max-width: 991px
+  ),
+  "max-lg": (
+    max-width:1025px
+  )
+) !default;

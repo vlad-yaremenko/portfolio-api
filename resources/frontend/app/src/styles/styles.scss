@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: $bg-color;
+  color: $main-color;
+  font-size: 16px;
+  font-family: $main-font;
+}
+
+a {
+  color: $main-color;
+  text-decoration: none;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 60%;
+    height: 2px;
+    background-color: $main-color;
+    transform: translate(-50%, 100%);
+    transition: width $base-anim-duration ease, height $base-anim-duration ease;
+  }
+
+  &:hover {
+    &::before {
+      height: 1px;
+      width: 110%;
+    }
+  }
+}
