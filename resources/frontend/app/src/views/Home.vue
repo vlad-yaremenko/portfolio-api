@@ -58,8 +58,8 @@
     }
 
     @include respond-to('max-sm') {
-      width: 700px;
-      height: 740px;
+        width: 580px;
+        height: 610px;
     }
   }
 }
